@@ -1,0 +1,26 @@
+{
+  "name": "3.1_nodejs_api_mongo",
+  "version": "1.0.0",
+  "description": "NodeJS RestfulAPI Project Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon server"
+  },
+  "keywords": [
+    "Restful",
+    "API",
+    "NodeJS"
+  ],
+  "author": "Kierra Bretz",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jest": "^29.6.1",
+    "mongoose": "^7.3.4",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.1"
+  }
+}
