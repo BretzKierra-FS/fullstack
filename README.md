@@ -2,6 +2,8 @@
 
 This is a very simple full-stack demo using MongoDB, Mongoose, Node.js, and React. The demo features a basic implementation of CRUD operations for managing owners, showcasing how to connect a Node.js backend with a MongoDB database and interact with the data through a React frontend.
 
+![DEMO GIF](./imgs/demo.gif)
+
 ## Prerequisites
 
 To run this demo locally, ensure you have the following installed:
@@ -71,8 +73,6 @@ MongoDB connected: 127.0.0.1
 ### Step 5: Using the Application
 
 Once both the server and client are running, you can navigate to your browser to interact with the app. You can add, view, and remove owners.
-
-![DEMO GIF](./imgs/demo.gif)
 
 ## Example Code
 
