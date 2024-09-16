@@ -7,7 +7,8 @@ function Owners() {
   const [name, setName] = useState('');
   const [age, setAge] = useState('');
   const [email, setEmail] = useState('');
-  const [owners, setOwners] = useState('');
+  // Initialize as an empty array instead of an empty string
+  const [owners, setOwners] = useState([]);
   const [owner, setOwner] = useState('');
 
   useEffect(() => {

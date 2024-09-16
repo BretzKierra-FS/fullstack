@@ -1,7 +1,7 @@
 {
-  "name": "3.1_nodejs_api_mongo",
+  "name": "GroomerBook Sever",
   "version": "1.0.0",
-  "description": "NodeJS RestfulAPI Project Express",
+  "description": "Server Side for GroomerBook",
   "main": "index.js",
   "scripts": {
     "test": "jest",
@@ -10,7 +10,10 @@
   "keywords": [
     "Restful",
     "API",
-    "NodeJS"
+    "NodeJS",
+    "GroomerBook",
+    "Portfolio",
+    "MongoDB"
   ],
   "author": "Kierra Bretz",
   "license": "MIT",

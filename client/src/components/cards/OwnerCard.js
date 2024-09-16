@@ -1,15 +1,20 @@
 import { styled } from 'styled-components';
+
 const OwnerCard = ({ owners, _id, removeOwners }) => {
   return (
     <>
-      {owners.map((owner) => (
-        <Article key={owner._id}>
-          <p>Name: {owner.name}</p>
-          <p>Age: {owner.age}</p>
-          <p>Email: {owner.email}</p>
-          <button onClick={() => removeOwners(_id)}>X</button>
-        </Article>
-      ))}
+      {Array.isArray(owners) && owners.length > 0 ? (
+        owners.map((owner) => (
+          <Article key={owner._id}>
+            <p>Name: {owner.name}</p>
+            <p>Age: {owner.age}</p>
+            <p>Email: {owner.email}</p>
+            <button onClick={() => removeOwners(_id)}>X</button>
+          </Article>
+        ))
+      ) : (
+        <p>No owners available.</p>
+      )}
     </>
   );
 };
@@ -17,7 +22,7 @@ const OwnerCard = ({ owners, _id, removeOwners }) => {
 export default OwnerCard;
 
 const Article = styled.article`
-  margin: auto;
+  margin: auto; 
   width: 25%;
   padding: 8px;
   margin-bottom: 15px;
